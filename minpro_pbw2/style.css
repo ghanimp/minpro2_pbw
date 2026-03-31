@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background: #0F1A16;
+    color: #E8F5E9;
+}
+
+.custom-nav {
+    background: rgba(15, 26, 22, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0, 200, 150, 0.2);
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at top right, #16241E, #0F1A16);
+}
+
+.section-title {
+    font-weight: 700;
+    color: #34D399;
+}
+
+.glass-card,
+.timeline-content,
+.modern-card {
+    background: #16241E;
+    border-radius: 18px;
+    padding: 22px;
+    border: 1px solid rgba(52, 211, 153, 0.15);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease;
+}
+
+.timeline-content:hover,
+.modern-card:hover {
+    transform: translateY(-6px);
+    border: 1px solid rgba(52, 211, 153, 0.35);
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.modern-progress {
+    height: 8px;
+    background: #1F2E27;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #10B981, #34D399);
+    border-radius: 50px;
+    transition: 1s ease;
+}
+
+.modern-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.modern-card .card-title {
+    color: #10B981;
+}
+
+.modern-card .card-text {
+    color: #E8F5E9;/
+}
+
+.btn-info {
+    background: #10B981;
+    border: none;
+    color: #0F1A16;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn-info:hover {
+    background: #34D399;
+}
+
+p, li {
+    color: #A7C4B8;
+}
+
+section {
+    padding-top: 100px;
+}
+
+#about .row {
+    align-items: stretch;
+}
+
+.glass-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
